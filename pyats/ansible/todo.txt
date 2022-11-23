@@ -1,0 +1,21 @@
+focus on OSPF config:
+
+facts only:
+ansible-navigator run ospf.yml --mode stdout -t facts
+
+currect config facts vs. RM:
+ansible-navigator run ospf.yml --mode stdout -t current
+
+verify the current state:
+ansible-navigator run ospf.yml --mode stdout -t verify
+
+resync to current config: (absolutly nonsence) ==> commands: []
+ansible-navigator run ospf_sync.yml --mode stdout -t resync
+
+merge new config to init config:
+ansible-navigator run ospf_sync.yml --mode stdout -t sync
+
+learn init:
+pyats learn ospf --testbed testbed/ansible_testbed.yml --devices ios-rt1 --output output_init
+
+pyats learn ospf --testbed testbed/ansible_testbed.yml --devices ios-rt1 --output output_merged

@@ -1,0 +1,32 @@
+1)
+router:
+sh ip ospf  
+
+init config:
+ansible-navigator run ospf_sync.yml --mode stdout -t init
+sh ip ospf neighbor
+
+let's learn pyats
+pyats learn ospf --testbed testbed/ansible_testbed.yml --devices ios-rt1 --output output_init
+
+2)
+facts only:
+ansible-navigator run ospf.yml --mode stdout -t facts
+
+3)
+currect config facts vs. RM:
+ansible-navigator run ospf.yml --mode stdout -t current
+
+4) 
+check current operational state
+ansible-navigator run ospf.yml --mode stdout -t verify
+
+last)
+merge new config to init config:
+ansible-navigator run ospf_sync.yml --mode stdout -t sync
+==> go through the debug before / after state 
+
+and learn pyats again
+pyats learn ospf --testbed testbed/ansible_testbed.yml --devices ios-rt1 --output output_merged
+
+genie diff output_init output_merged --output diff

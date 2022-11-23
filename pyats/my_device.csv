@@ -1,0 +1,3 @@
+hostname,ip,username,password,protocol,os
+ios-rt01,172.16.1.151 22,cisco,Cisco123,ssh,ios
+ios-rt02,172.16.1.152 22,cisco,Cisco123,ssh,ios

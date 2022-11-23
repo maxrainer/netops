@@ -1,0 +1,61 @@
+---
+# https://docs.ansible.com/ansible/latest/collections/cisco/ios/index.html
+
+- name: ospf playbook
+  hosts: ios-rt1
+  gather_facts: no
+  become: yes
+  vars:
+    ospf_neighbor_check:
+        id: 22.2.2.2
+        interface: Ethernet0/1
+        state: FULL/DR
+
+  tasks: 
+
+  - block:
+  # https://docs.ansible.com/ansible/latest/collections/cisco/ios/ios_facts_module.html#ansible-collections-cisco-ios-ios-facts-module
+    - name: gather current OSPF config using facts
+      cisco.ios.ios_facts:
+        gather_subset:
+          - '!all'
+          - 'min'
+        gather_network_resources: 
+          - ospfv2
+      register: _ospfv2_facts_current
+    - debug: 
+        var: _ospfv2_facts_current
+    tags: [current, facts]
+
+  - block: 
+    # https://docs.ansible.com/ansible/latest/collections/cisco/ios/ios_ospfv2_module.html#ansible-collections-cisco-ios-ios-ospfv2-module
+    - name: gather current OSPF config with resource module
+      cisco.ios.ios_ospfv2:
+        state: gathered
+      register: _ospfv2_rm_current
+    - debug: 
+        var: _ospfv2_rm_current
+    tags: [current, rm]
+
+  - name: verify OSPF neighbor
+    block:
+    # https://docs.ansible.com/ansible/latest/network/user_guide/cli_parsing.html
+    # https://docs.ansible.com/ansible/latest/collections/ansible/utils/cli_parse_module.html
+    - name: parse command show ip ospf neighbor
+      ansible.utils.cli_parse:
+        command: show ip ospf neighbor
+        parser: 
+          name: ansible.netcommon.pyats
+        set_fact: ospf_neighbor
+    - debug: 
+        var: ospf_neighbor.interfaces
+    - name: "check for state {{ ospf_neighbor_check.state }}" 
+      ansible.builtin.fail:
+        msg: "not found or on wrong state"
+      when: 
+        ospf_neighbor_check.interface not in ospf_neighbor.interfaces or
+        ospf_neighbor_check.id not in ospf_neighbor.interfaces[ospf_neighbor_check.interface].neighbors or
+        ospf_neighbor.interfaces[ospf_neighbor_check.interface].neighbors[ospf_neighbor_check.id].state != ospf_neighbor_check.state
+    tags: [verify]
+
+    

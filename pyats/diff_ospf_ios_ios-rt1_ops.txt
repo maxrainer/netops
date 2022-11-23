@@ -1,0 +1,20 @@
+--- output_init/ospf_ios_ios-rt1_ops.txt
++++ output_merged/ospf_ios_ios-rt1_ops.txt
+ info:
+  vrf:
+   default:
+    address_family:
+     ipv4:
+      instance:
+       1:
+        areas:
++        0.0.0.4:
++         area_id: 0.0.0.4
++         area_type: normal
++         mpls:
++          te:
++           enable: False
++         statistics:
++          area_scope_lsa_cksum_sum: 0x000000
++          area_scope_lsa_count: 0
++          spf_runs_count: 0

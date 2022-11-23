@@ -1,0 +1,23 @@
+
+---
+# thx to Stephen Paynter
+# https://github.com/stephenpaynter/Dynamic-Testbed/blob/main/PyatsTestbed.yml
+#
+
+- name: Create Pyats Testbed From Ansible Inventory
+  hosts: "{{ _devices }}"
+  gather_facts: no
+  vars:
+    _devices:
+      - cisco
+
+  tasks:
+  
+  - name: Flatten Group Name To Device List.
+    set_fact:
+      _testbed: '{{ _devices | map("extract", groups) | flatten | list }}'
+
+  - name: Template Ansible Inventory Devices To Testbed.yml
+    template:
+      src: testbed.j2
+      dest: testbed/ansible_testbed.yml

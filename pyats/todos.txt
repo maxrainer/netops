@@ -1,0 +1,23 @@
+pip install pyats genie pyats.contrib cookiecutter
+
+create testbed from csv file
+pyats create testbed file --path my_device.csv --output testbed/csv_testbed.yaml
+or
+pyats create testbed file --path my_device.csv --output testbed/csv_testbed.yml --encode-password
+
+create testbed from ansible inventory file
+this does not work:
+pyats create testbed ansible --output yaml/ansible_testbed.yml --encode-password --path ansible/inventory.ini
+this works:
+ansible-playbook -i ansible/inventory.ini ansible/testbed.yml 
+
+
+pyats validate testbed yaml/my_testbed.yaml
+
+LEARN:
+pyats learn ospf --testbed testbed/ansible_testbed.yml --devices ios-rt1 --output output
+    ==> ospf_ios_ios-rt1_ops.txt    
+pyats learn all --testbed testbed/ansible_testbed.yml --devices ios-rt1 --output output
+
+COMPARE:
+pyats learn ospf --testbed testbed/ansible_testbed.yml --devices ios-rt1 --output output1

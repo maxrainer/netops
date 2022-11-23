@@ -1,0 +1,67 @@
+
+devices:
+  ios-rt1:
+    connections:
+      cli:
+        ip: 172.16.1.151
+        protocol: ssh
+    credentials:
+      default:
+        password: Cisco123
+        username: admin
+      enable:
+        password: Cisco123
+    os: ios
+    type: ios
+  ios-rt2:
+    connections:
+      cli:
+        ip: 172.16.1.152
+        protocol: ssh
+    credentials:
+      default:
+        password: Cisco123
+        username: admin
+      enable:
+        password: Cisco123
+    os: nxos
+    type: nxos
+  ios-sw1:
+    connections:
+      cli:
+        ip: 172.16.1.153
+        protocol: ssh
+    credentials:
+      default:
+        password: Cisco123
+        username: admin
+      enable:
+        password: Cisco123
+    os: nxos
+    type: nxos
+  nx9k01:
+    connections:
+      cli:
+        ip: 172.16.1.220
+        protocol: ssh
+    credentials:
+      default:
+        password: Cisco123
+        username: admin
+      enable:
+        password: Cisco123
+    os: nxos
+    type: nxos
+  nx9k02:
+    connections:
+      cli:
+        ip: 172.16.1.221
+        protocol: ssh
+    credentials:
+      default:
+        password: Cisco123
+        username: admin
+      enable:
+        password: Cisco123
+    os: nxos
+    type: nxos

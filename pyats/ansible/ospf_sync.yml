@@ -1,0 +1,73 @@
+---
+# https://docs.ansible.com/ansible/latest/collections/cisco/ios/index.html
+
+- name: ospf sync state
+  hosts: ios-rt1
+  gather_facts: no
+  become: yes
+  vars:
+    - state: merged
+    - init_ospf_config:
+        processes:
+        - process_id: 1
+          router_id: 1.1.1.1
+          network: 
+            - address: 11.11.11.0
+              area: 0
+              wildcard_bits: 0.0.0.255
+    - new_ospf_config:
+        processes:
+        - process_id: 1
+          network: 
+            - address: 4.4.4.0
+              area: 4
+              wildcard_bits: 0.0.0.255
+
+  tasks: 
+
+  - block:
+  # https://docs.ansible.com/ansible/latest/collections/cisco/ios/ios_facts_module.html#ansible-collections-cisco-ios-ios-facts-module
+    - name: resync with current config
+      cisco.ios.ios_facts:
+        gather_subset:
+          - '!all'
+          - '!min'
+        gather_network_resources: 
+          - ospfv2
+      register: _ospfv2_facts_current
+    - debug: 
+        var: _ospfv2_facts_current
+    - name: resync with current config
+      cisco.ios.ios_ospfv2:
+        state: replaced
+        config: "{{ _ospfv2_facts_current.ansible_facts.ansible_network_resources.ospfv2 }}"
+      register: _same_config
+    - debug:
+        var: _same_config
+    tags: [resync]
+
+  - name: sync OSPF config
+    block: 
+    # https://docs.ansible.com/ansible/latest/collections/cisco/ios/ios_ospfv2_module.html#ansible-collections-cisco-ios-ios-ospfv2-module
+    - name: gather current OSPF config with resource module
+      cisco.ios.ios_ospfv2:
+        state: "{{ state }}"
+        config: "{{ new_ospf_config }}"
+      register: _ospfv2_synced
+    - name: "OSPF {{ state }}"
+      debug: 
+        var: _ospfv2_synced
+    tags: [sync, rm]
+
+  
+  - name: init OSPF config
+    block: 
+    # https://docs.ansible.com/ansible/latest/collections/cisco/ios/ios_ospfv2_module.html#ansible-collections-cisco-ios-ios-ospfv2-module
+    - name: delete config
+      cisco.ios.ios_ospfv2:
+        state: deleted
+    - name: init config
+      cisco.ios.ios_ospfv2:
+        state: replaced
+        config: "{{ init_ospf_config }}"
+    tags: [init]

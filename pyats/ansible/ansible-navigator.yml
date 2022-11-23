@@ -1,0 +1,13 @@
+---
+ansible-navigator:
+  ansible:
+    inventory:
+      entries:
+        -  ./inventory.ini
+  execution-environment:
+    container-engine: docker
+    image: quay.io/maxrainer/netbox
+    pull:
+      policy: missing
+  logging:
+    level: info

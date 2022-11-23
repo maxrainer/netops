@@ -1,0 +1,770 @@
+2022-10-31T10:36:16.824111+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-10-31T10:36:16.844007+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-10-31T10:36:16.844234+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-10-31T10:36:16.844663+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-10-31T10:36:17.829093+00:00 WARNING 'ansible_navigator.image_manager.puller._log_message' Image inspection failed, image assumed to be corrupted or missing
+2022-10-31T10:36:17.829684+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Execution environment image name:: quay.io/maxrainer/netbox:latest
+2022-10-31T10:36:17.829754+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Execution environment image tag:: latest
+2022-10-31T10:36:17.829806+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Execution environment pull arguments:: None
+2022-10-31T10:36:17.829853+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Execution environment pull policy:: missing
+2022-10-31T10:36:17.829898+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Execution environment pull needed:: True
+2022-10-31T10:36:18.354903+00:00 ERROR 'ansible_navigator.image_manager.puller._log_message' Execution environment pull failed
+2022-10-31T10:36:18.355302+00:00 ERROR 'ansible_navigator.image_manager.puller._log_message' Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?
+2022-10-31T10:36:18.355401+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Check the execution environment image name, connectivity to and permissions for the registry, and try again
+2022-10-31T10:38:17.958759+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-10-31T10:38:17.959614+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-10-31T10:38:17.959723+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-10-31T10:38:17.959878+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-10-31T10:38:18.390627+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Execution environment image name:: quay.io/maxrainer/netbox:latest
+2022-10-31T10:38:18.390916+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Execution environment image tag:: latest
+2022-10-31T10:38:18.390990+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Execution environment pull arguments:: None
+2022-10-31T10:38:18.391035+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Execution environment pull policy:: missing
+2022-10-31T10:38:18.391077+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Execution environment pull needed:: True
+2022-10-31T10:40:40.533654+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Execution environment updated
+2022-10-31T10:40:40.640873+00:00 INFO 'ansible_navigator.actions.run_ecda._update_args' 'display_color' cannot be reconfigured. (restore original)
+2022-10-31T10:40:40.640972+00:00 INFO 'ansible_navigator.actions.run_ecda._update_args' 'mode' cannot be reconfigured. (restore original)
+2022-10-31T10:40:40.641016+00:00 INFO 'ansible_navigator.actions.run_ecda._update_args' 'display_color' cannot be reconfigured. (apply defaults)
+2022-10-31T10:40:40.641051+00:00 INFO 'ansible_navigator.actions.run_ecda._update_args' 'mode' cannot be reconfigured. (apply defaults)
+2022-10-31T10:40:40.641103+00:00 INFO 'ansible_navigator.actions.run_ecda._update_args' 'display_color' cannot be reconfigured (apply previous cli)
+2022-10-31T10:40:40.641136+00:00 INFO 'ansible_navigator.actions.run_ecda._update_args' 'mode' cannot be reconfigured (apply previous cli)
+2022-10-31T10:40:40.641182+00:00 INFO 'ansible_navigator.actions.run_ecda._update_args' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-10-31T10:40:40.641216+00:00 INFO 'ansible_navigator.actions.run_ecda._update_args' 'display_color' cannot be reconfigured. (post process)
+2022-10-31T10:40:40.641256+00:00 INFO 'ansible_navigator.actions.run_ecda._update_args' 'mode' cannot be reconfigured. (post process)
+2022-10-31T10:40:40.724534+00:00 INFO 'ansible_navigator.actions.run_ecda._init_run' Run initialized and playbook started.
+2022-10-31T10:40:45.263643+00:00 CRITICAL 'ansible_navigator.actions.run_ecda._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '9e5a2abe-7e27-4b29-b390-15136ebb9233', 'counter': 1, 'stdout': '\x1b[0;31mERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:\x1b[0m', 'start_line': 0, 'end_line': 1, 'runner_ident': 'be721a15-e3dc-4c4d-8ba4-150ffc805ac4', 'created': '2022-10-31T10:40:45.263236'}
+2022-10-31T10:40:45.370820+00:00 CRITICAL 'ansible_navigator.actions.run_ecda._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '5caffeb2-d382-47a0-b527-c1e07a014ecf', 'counter': 2, 'stdout': '\x1b[0;31mJSON: Expecting value: line 1 column 1 (char 0)\x1b[0m', 'start_line': 1, 'end_line': 2, 'runner_ident': 'be721a15-e3dc-4c4d-8ba4-150ffc805ac4', 'created': '2022-10-31T10:40:45.264796'}
+2022-10-31T10:40:45.370947+00:00 CRITICAL 'ansible_navigator.actions.run_ecda._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '384405f5-4769-4d76-9243-a9d88d4d4ca1', 'counter': 3, 'stdout': '\x1b[0;31m\x1b[0m', 'start_line': 2, 'end_line': 3, 'runner_ident': 'be721a15-e3dc-4c4d-8ba4-150ffc805ac4', 'created': '2022-10-31T10:40:45.264900'}
+2022-10-31T10:40:45.371015+00:00 CRITICAL 'ansible_navigator.actions.run_ecda._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '9e01f074-f31b-4640-a38c-a6000301984b', 'counter': 4, 'stdout': '\x1b[0;31mSyntax Error while loading YAML.\x1b[0m', 'start_line': 3, 'end_line': 4, 'runner_ident': 'be721a15-e3dc-4c4d-8ba4-150ffc805ac4', 'created': '2022-10-31T10:40:45.264981'}
+2022-10-31T10:40:45.371072+00:00 CRITICAL 'ansible_navigator.actions.run_ecda._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '5400afe5-d96b-4ee9-bd4c-30fbc13e24e3', 'counter': 5, 'stdout': "\x1b[0;31m  could not determine a constructor for the tag '!all'\x1b[0m", 'start_line': 4, 'end_line': 5, 'runner_ident': 'be721a15-e3dc-4c4d-8ba4-150ffc805ac4', 'created': '2022-10-31T10:40:45.265112'}
+2022-10-31T10:40:45.371131+00:00 CRITICAL 'ansible_navigator.actions.run_ecda._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'da931a23-44c2-463b-8d8d-ac96ec5654b3', 'counter': 6, 'stdout': '\x1b[0;31m\x1b[0m', 'start_line': 5, 'end_line': 6, 'runner_ident': 'be721a15-e3dc-4c4d-8ba4-150ffc805ac4', 'created': '2022-10-31T10:40:45.265211'}
+2022-10-31T10:40:45.371185+00:00 CRITICAL 'ansible_navigator.actions.run_ecda._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '7fcccfe0-1d4a-41b3-8e64-2fb99dc31e1b', 'counter': 7, 'stdout': "\x1b[0;31mThe error appears to be in '/Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf.yml': line 12, column 11, but may\x1b[0m", 'start_line': 6, 'end_line': 7, 'runner_ident': 'be721a15-e3dc-4c4d-8ba4-150ffc805ac4', 'created': '2022-10-31T10:40:45.265292'}
+2022-10-31T10:40:45.371248+00:00 CRITICAL 'ansible_navigator.actions.run_ecda._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'da567420-bbc3-470e-a6a4-1d21fae1372b', 'counter': 8, 'stdout': '\x1b[0;31mbe elsewhere in the file depending on the exact syntax problem.\x1b[0m', 'start_line': 7, 'end_line': 8, 'runner_ident': 'be721a15-e3dc-4c4d-8ba4-150ffc805ac4', 'created': '2022-10-31T10:40:45.265366'}
+2022-10-31T10:40:45.371317+00:00 CRITICAL 'ansible_navigator.actions.run_ecda._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '013ec89b-f5bc-4c09-b8f8-bd38a6d3bc79', 'counter': 9, 'stdout': '\x1b[0;31m\x1b[0m', 'start_line': 8, 'end_line': 9, 'runner_ident': 'be721a15-e3dc-4c4d-8ba4-150ffc805ac4', 'created': '2022-10-31T10:40:45.265437'}
+2022-10-31T10:40:45.371370+00:00 CRITICAL 'ansible_navigator.actions.run_ecda._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'bd03341d-227a-4f68-a33f-676888902f1a', 'counter': 10, 'stdout': '\x1b[0;31mThe offending line appears to be:\x1b[0m', 'start_line': 9, 'end_line': 10, 'runner_ident': 'be721a15-e3dc-4c4d-8ba4-150ffc805ac4', 'created': '2022-10-31T10:40:45.265505'}
+2022-10-31T10:40:45.371421+00:00 CRITICAL 'ansible_navigator.actions.run_ecda._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '2c2eb050-cd01-4c2b-ba53-52b847495057', 'counter': 11, 'stdout': '\x1b[0;31m\x1b[0m', 'start_line': 10, 'end_line': 11, 'runner_ident': 'be721a15-e3dc-4c4d-8ba4-150ffc805ac4', 'created': '2022-10-31T10:40:45.265570'}
+2022-10-31T10:40:45.371472+00:00 CRITICAL 'ansible_navigator.actions.run_ecda._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '9a1f3b3e-b3f7-4b3d-9f50-5b3528422c88', 'counter': 12, 'stdout': '\x1b[0;31m      gather_subset:\x1b[0m', 'start_line': 11, 'end_line': 12, 'runner_ident': 'be721a15-e3dc-4c4d-8ba4-150ffc805ac4', 'created': '2022-10-31T10:40:45.265636'}
+2022-10-31T10:40:45.371527+00:00 CRITICAL 'ansible_navigator.actions.run_ecda._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'fb28b141-ad12-492c-9b68-11be77e7b2ca', 'counter': 13, 'stdout': '\x1b[0;31m        - !all\x1b[0m', 'start_line': 12, 'end_line': 13, 'runner_ident': 'be721a15-e3dc-4c4d-8ba4-150ffc805ac4', 'created': '2022-10-31T10:40:45.265702'}
+2022-10-31T10:40:45.371578+00:00 CRITICAL 'ansible_navigator.actions.run_ecda._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '85e35686-3b8a-44b2-bff2-9db2199d3175', 'counter': 14, 'stdout': '\x1b[0;31m          ^ here\x1b[0m', 'start_line': 13, 'end_line': 14, 'runner_ident': 'be721a15-e3dc-4c4d-8ba4-150ffc805ac4', 'created': '2022-10-31T10:40:45.265767'}
+2022-10-31T10:40:45.583225+00:00 INFO 'ansible_navigator.actions.run_ecda.update' Playbook complete
+2022-10-31T10:40:45.586308+00:00 INFO 'ansible_navigator.actions.run_ecda.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf-artifact-2022-10-31T10:40:45.583470+00:00.json
+2022-10-31T10:42:20.464945+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-10-31T10:42:20.465402+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-10-31T10:42:20.465491+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-10-31T10:42:20.465618+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-10-31T10:42:46.704397+00:00 WARNING 'ansible_navigator.run' Dirty exit, killing the pid
+2022-10-31T10:42:48.290181+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-10-31T10:42:48.290700+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-10-31T10:42:48.290803+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-10-31T10:42:48.290949+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-10-31T10:42:54.445718+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf-artifact-2022-10-31T10:42:54.437065+00:00.json
+2022-10-31T10:48:49.758144+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-10-31T10:48:49.758951+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-10-31T10:48:49.759078+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-10-31T10:48:49.759216+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-10-31T10:48:59.112649+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf-artifact-2022-10-31T10:48:59.108535+00:00.json
+2022-10-31T10:53:40.165101+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-10-31T10:53:40.166001+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-10-31T10:53:40.166104+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-10-31T10:53:40.166239+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-10-31T10:53:50.453371+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf-artifact-2022-10-31T10:53:50.448937+00:00.json
+2022-10-31T10:59:38.455602+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-10-31T10:59:38.456464+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-10-31T10:59:38.456592+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-10-31T10:59:38.456771+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-10-31T10:59:41.935217+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'ab3ab78f-82aa-4dc2-90f7-ae3003b4009d', 'counter': 1, 'stdout': '\x1b[0;31mERROR! no module/action detected in task.\x1b[0m', 'start_line': 0, 'end_line': 1, 'runner_ident': '08b2852c-8a0f-491d-a561-6e47ce0a07d4', 'created': '2022-10-31T10:59:41.932493'}
+2022-10-31T10:59:41.935579+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'e6499704-1bd3-41b5-9e97-50f9b2e40591', 'counter': 2, 'stdout': '\x1b[0;31m\x1b[0m', 'start_line': 1, 'end_line': 2, 'runner_ident': '08b2852c-8a0f-491d-a561-6e47ce0a07d4', 'created': '2022-10-31T10:59:41.932767'}
+2022-10-31T10:59:41.935677+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'aef6b321-5c4a-41a6-868c-3b24fa0f0ee9', 'counter': 3, 'stdout': "\x1b[0;31mThe error appears to be in '/Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf.yml': line 33, column 5, but may\x1b[0m", 'start_line': 2, 'end_line': 3, 'runner_ident': '08b2852c-8a0f-491d-a561-6e47ce0a07d4', 'created': '2022-10-31T10:59:41.932867'}
+2022-10-31T10:59:41.935770+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'c5353233-3e9f-4bb8-98f7-b274a12ad9ca', 'counter': 4, 'stdout': '\x1b[0;31mbe elsewhere in the file depending on the exact syntax problem.\x1b[0m', 'start_line': 3, 'end_line': 4, 'runner_ident': '08b2852c-8a0f-491d-a561-6e47ce0a07d4', 'created': '2022-10-31T10:59:41.932958'}
+2022-10-31T10:59:41.935867+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'bb56b78e-baef-49cf-ba21-d84e50cf3481', 'counter': 5, 'stdout': '\x1b[0;31m\x1b[0m', 'start_line': 4, 'end_line': 5, 'runner_ident': '08b2852c-8a0f-491d-a561-6e47ce0a07d4', 'created': '2022-10-31T10:59:41.933042'}
+2022-10-31T10:59:41.935942+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'e21aad7d-810e-455a-b32c-6541d49cf1d7', 'counter': 6, 'stdout': '\x1b[0;31mThe offending line appears to be:\x1b[0m', 'start_line': 5, 'end_line': 6, 'runner_ident': '08b2852c-8a0f-491d-a561-6e47ce0a07d4', 'created': '2022-10-31T10:59:41.933127'}
+2022-10-31T10:59:41.936015+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '0de098f2-1934-42a0-8d95-cd84bf9284ac', 'counter': 7, 'stdout': '\x1b[0;31m\x1b[0m', 'start_line': 6, 'end_line': 7, 'runner_ident': '08b2852c-8a0f-491d-a561-6e47ce0a07d4', 'created': '2022-10-31T10:59:41.933209'}
+2022-10-31T10:59:41.936085+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '31048d33-9c0e-4b09-8973-0389ca30bff1', 'counter': 8, 'stdout': '\x1b[0;31m\x1b[0m', 'start_line': 7, 'end_line': 8, 'runner_ident': '08b2852c-8a0f-491d-a561-6e47ce0a07d4', 'created': '2022-10-31T10:59:41.933287'}
+2022-10-31T10:59:41.936158+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '310c22fb-3af0-4920-a027-002b9ecc4947', 'counter': 9, 'stdout': '\x1b[0;31m  - name: verify OSPF neigh\x1b[0m', 'start_line': 8, 'end_line': 9, 'runner_ident': '08b2852c-8a0f-491d-a561-6e47ce0a07d4', 'created': '2022-10-31T10:59:41.933371'}
+2022-10-31T10:59:41.936233+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '8868ff76-bd03-42f5-b58a-c8e968743515', 'counter': 10, 'stdout': '\x1b[0;31m    ^ here\x1b[0m', 'start_line': 9, 'end_line': 10, 'runner_ident': '08b2852c-8a0f-491d-a561-6e47ce0a07d4', 'created': '2022-10-31T10:59:41.933451'}
+2022-10-31T10:59:42.236591+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf-artifact-2022-10-31T10:59:42.233943+00:00.json
+2022-10-31T10:59:55.860868+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-10-31T10:59:55.861573+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-10-31T10:59:55.861705+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-10-31T10:59:55.861886+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-10-31T11:00:04.248627+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf-artifact-2022-10-31T11:00:04.244754+00:00.json
+2022-10-31T11:00:42.305098+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-10-31T11:00:42.305576+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-10-31T11:00:42.305674+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-10-31T11:00:42.305812+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-10-31T11:00:50.159030+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf-artifact-2022-10-31T11:00:50.156337+00:00.json
+2022-10-31T11:13:49.160855+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-10-31T11:13:49.161843+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-10-31T11:13:49.161976+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-10-31T11:13:49.162165+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-10-31T11:13:57.417288+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf-artifact-2022-10-31T11:13:57.413341+00:00.json
+2022-10-31T11:14:03.167058+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-10-31T11:14:03.167746+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-10-31T11:14:03.167872+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-10-31T11:14:03.168063+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-10-31T11:14:11.556138+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf-artifact-2022-10-31T11:14:11.552049+00:00.json
+2022-10-31T11:15:44.731820+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-10-31T11:15:44.732281+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-10-31T11:15:44.732371+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-10-31T11:15:44.732509+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-10-31T11:15:52.946036+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf-artifact-2022-10-31T11:15:52.941886+00:00.json
+2022-10-31T11:19:06.506870+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-10-31T11:19:06.507642+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-10-31T11:19:06.507749+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-10-31T11:19:06.507893+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-10-31T11:19:15.044401+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf-artifact-2022-10-31T11:19:15.040901+00:00.json
+2022-10-31T11:19:33.829661+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-10-31T11:19:33.830133+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-10-31T11:19:33.830226+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-10-31T11:19:33.830360+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-10-31T11:19:41.982036+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf-artifact-2022-10-31T11:19:41.977607+00:00.json
+2022-10-31T11:22:02.755802+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-10-31T11:22:02.756854+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-10-31T11:22:02.756997+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-10-31T11:22:02.757191+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-10-31T11:22:11.403179+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf-artifact-2022-10-31T11:22:11.399490+00:00.json
+2022-10-31T11:24:27.087068+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-10-31T11:24:27.088293+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-10-31T11:24:27.088473+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-10-31T11:24:27.088691+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-10-31T11:24:35.712843+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf-artifact-2022-10-31T11:24:35.708828+00:00.json
+2022-10-31T11:24:49.642950+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-10-31T11:24:49.643443+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-10-31T11:24:49.643534+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-10-31T11:24:49.643659+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-10-31T11:24:57.717019+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf-artifact-2022-10-31T11:24:57.712679+00:00.json
+2022-10-31T11:25:46.193211+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-10-31T11:25:46.193661+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-10-31T11:25:46.193749+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-10-31T11:25:46.193877+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-10-31T11:25:54.391382+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf-artifact-2022-10-31T11:25:54.387072+00:00.json
+2022-10-31T11:27:00.166850+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-10-31T11:27:00.167491+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-10-31T11:27:00.167588+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-10-31T11:27:00.167726+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-10-31T11:27:08.323908+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf-artifact-2022-10-31T11:27:08.319625+00:00.json
+2022-10-31T11:28:14.430529+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-10-31T11:28:14.431172+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-10-31T11:28:14.431281+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-10-31T11:28:14.431415+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-10-31T11:28:22.569102+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf-artifact-2022-10-31T11:28:22.566369+00:00.json
+2022-10-31T11:29:04.304916+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-10-31T11:29:04.305758+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-10-31T11:29:04.305855+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-10-31T11:29:04.305991+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-10-31T11:29:12.700051+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf-artifact-2022-10-31T11:29:12.696041+00:00.json
+2022-10-31T11:29:26.191767+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-10-31T11:29:26.192209+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-10-31T11:29:26.192298+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-10-31T11:29:26.192422+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-10-31T11:29:34.347084+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf-artifact-2022-10-31T11:29:34.344263+00:00.json
+2022-10-31T11:30:06.828824+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-10-31T11:30:06.829297+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-10-31T11:30:06.829431+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-10-31T11:30:06.829558+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-10-31T11:30:14.983979+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf-artifact-2022-10-31T11:30:14.980200+00:00.json
+2022-10-31T11:31:22.759087+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-10-31T11:31:22.760192+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-10-31T11:31:22.760327+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-10-31T11:31:22.760524+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-10-31T11:31:31.050451+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf-artifact-2022-10-31T11:31:31.045993+00:00.json
+2022-11-23T09:22:26.677248+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-11-23T09:22:26.680168+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-11-23T09:22:26.680278+00:00 DEBUG 'ansible_navigator.main' ansible-builder==1.1.0 /Users/mrainer/venv/aap2/lib/python3.9/site-packages
+2022-11-23T09:22:26.680327+00:00 DEBUG 'ansible_navigator.main' ansible-core==2.12.2 /Users/mrainer/venv/aap2/lib/python3.9/site-packages
+2022-11-23T09:22:26.680370+00:00 DEBUG 'ansible_navigator.main' ansible-navigator==2.1.0 /Users/mrainer/venv/aap2/lib/python3.9/site-packages
+2022-11-23T09:22:26.680408+00:00 DEBUG 'ansible_navigator.main' ansible-runner==2.0.2 /Users/mrainer/venv/aap2/lib/python3.9/site-packages
+2022-11-23T09:22:26.680445+00:00 DEBUG 'ansible_navigator.main' ansible==5.3.0 /Users/mrainer/venv/aap2/lib/python3.9/site-packages
+2022-11-23T09:22:26.680481+00:00 DEBUG 'ansible_navigator.main' attrs==22.1.0 /Users/mrainer/venv/aap2/lib/python3.9/site-packages
+2022-11-23T09:22:26.680517+00:00 DEBUG 'ansible_navigator.main' bindep==2.9.0 /Users/mrainer/venv/aap2/lib/python3.9/site-packages
+2022-11-23T09:22:26.680553+00:00 DEBUG 'ansible_navigator.main' cffi==1.15.0 /Users/mrainer/venv/aap2/lib/python3.9/site-packages
+2022-11-23T09:22:26.680588+00:00 DEBUG 'ansible_navigator.main' cryptography==35.0.0 /Users/mrainer/venv/aap2/lib/python3.9/site-packages
+2022-11-23T09:22:26.680623+00:00 DEBUG 'ansible_navigator.main' distro==1.6.0 /Users/mrainer/venv/aap2/lib/python3.9/site-packages
+2022-11-23T09:22:26.680658+00:00 DEBUG 'ansible_navigator.main' docutils==0.17.1 /Users/mrainer/venv/aap2/lib/python3.9/site-packages
+2022-11-23T09:22:26.680693+00:00 DEBUG 'ansible_navigator.main' future==0.18.2 /Users/mrainer/venv/aap2/lib/python3.9/site-packages
+2022-11-23T09:22:26.680728+00:00 DEBUG 'ansible_navigator.main' jinja2==3.0.3 /Users/mrainer/venv/aap2/lib/python3.9/site-packages
+2022-11-23T09:22:26.680763+00:00 DEBUG 'ansible_navigator.main' jsonschema==4.16.0 /Users/mrainer/venv/aap2/lib/python3.9/site-packages
+2022-11-23T09:22:26.680798+00:00 DEBUG 'ansible_navigator.main' lockfile==0.12.2 /Users/mrainer/venv/aap2/lib/python3.9/site-packages
+2022-11-23T09:22:26.680834+00:00 DEBUG 'ansible_navigator.main' markupsafe==2.0.1 /Users/mrainer/venv/aap2/lib/python3.9/site-packages
+2022-11-23T09:22:26.680869+00:00 DEBUG 'ansible_navigator.main' onigurumacffi==1.1.0 /Users/mrainer/venv/aap2/lib/python3.9/site-packages
+2022-11-23T09:22:26.680904+00:00 DEBUG 'ansible_navigator.main' packaging==21.0 /Users/mrainer/venv/aap2/lib/python3.9/site-packages
+2022-11-23T09:22:26.680939+00:00 DEBUG 'ansible_navigator.main' parsley==1.3 /Users/mrainer/venv/aap2/lib/python3.9/site-packages
+2022-11-23T09:22:26.680974+00:00 DEBUG 'ansible_navigator.main' pbr==5.6.0 /Users/mrainer/venv/aap2/lib/python3.9/site-packages
+2022-11-23T09:22:26.681009+00:00 DEBUG 'ansible_navigator.main' pexpect==4.8.0 /Users/mrainer/venv/aap2/lib/python3.9/site-packages
+2022-11-23T09:22:26.681043+00:00 DEBUG 'ansible_navigator.main' pip==22.2.2 /Users/mrainer/venv/aap2/lib/python3.9/site-packages
+2022-11-23T09:22:26.681078+00:00 DEBUG 'ansible_navigator.main' ptyprocess==0.7.0 /Users/mrainer/venv/aap2/lib/python3.9/site-packages
+2022-11-23T09:22:26.681113+00:00 DEBUG 'ansible_navigator.main' pycparser==2.20 /Users/mrainer/venv/aap2/lib/python3.9/site-packages
+2022-11-23T09:22:26.681148+00:00 DEBUG 'ansible_navigator.main' pyparsing==2.4.7 /Users/mrainer/venv/aap2/lib/python3.9/site-packages
+2022-11-23T09:22:26.681182+00:00 DEBUG 'ansible_navigator.main' pyrsistent==0.18.1 /Users/mrainer/venv/aap2/lib/python3.9/site-packages
+2022-11-23T09:22:26.681216+00:00 DEBUG 'ansible_navigator.main' python-daemon==2.3.0 /Users/mrainer/venv/aap2/lib/python3.9/site-packages
+2022-11-23T09:22:26.681249+00:00 DEBUG 'ansible_navigator.main' pyyaml==6.0 /Users/mrainer/venv/aap2/lib/python3.9/site-packages
+2022-11-23T09:22:26.681282+00:00 DEBUG 'ansible_navigator.main' requirements-parser==0.2.0 /Users/mrainer/venv/aap2/lib/python3.9/site-packages
+2022-11-23T09:22:26.681332+00:00 DEBUG 'ansible_navigator.main' resolvelib==0.5.4 /Users/mrainer/venv/aap2/lib/python3.9/site-packages
+2022-11-23T09:22:26.681364+00:00 DEBUG 'ansible_navigator.main' setuptools==57.4.0 /Users/mrainer/venv/aap2/lib/python3.9/site-packages
+2022-11-23T09:22:26.681395+00:00 DEBUG 'ansible_navigator.main' six==1.16.0 /Users/mrainer/venv/aap2/lib/python3.9/site-packages
+2022-11-23T09:22:26.681425+00:00 DEBUG 'ansible_navigator.main' textfsm==1.1.2 /Users/mrainer/venv/aap2/lib/python3.9/site-packages
+2022-11-23T09:22:26.681455+00:00 DEBUG 'ansible_navigator.main' tzdata==2022.2 /Users/mrainer/venv/aap2/lib/python3.9/site-packages
+2022-11-23T09:22:26.681486+00:00 DEBUG 'ansible_navigator.main' wheel==0.37.1 /Users/mrainer/venv/aap2/lib/python3.9/site-packages
+2022-11-23T09:22:26.681516+00:00 DEBUG 'ansible_navigator.main' Share directory '/Users/mrainer/venv/aap2/lib/python3.9/share/ansible_navigator' not found (development path)
+2022-11-23T09:22:26.681546+00:00 DEBUG 'ansible_navigator.main' Share directory '/Users/mrainer/Library/Python/3.9/share/ansible_navigator' not found (userbase)
+2022-11-23T09:22:26.681577+00:00 DEBUG 'ansible_navigator.main' Share directory '/Users/mrainer/venv/aap2/share/ansible_navigator' found (sys.prefix)
+2022-11-23T09:22:26.681607+00:00 DEBUG 'ansible_navigator.main' Default collection_doc_cache_path set to: /Users/mrainer/.cache/ansible-navigator/collection_doc_cache.db
+2022-11-23T09:22:26.681637+00:00 DEBUG 'ansible_navigator.main' EDITOR environment variable not set
+2022-11-23T09:22:26.681667+00:00 DEBUG 'ansible_navigator.main' Default editor_command set to: vi +{line_number} {filename}
+2022-11-23T09:22:26.681697+00:00 DEBUG 'ansible_navigator.main' No config file set by ANSIBLE_NAVIGATOR_CONFIG
+2022-11-23T09:22:26.681727+00:00 DEBUG 'ansible_navigator.main' Looking in /Users/mrainer
+2022-11-23T09:22:26.681758+00:00 DEBUG 'ansible_navigator.main' Looking for '/Users/mrainer/.ansible-navigator.yml', '/Users/mrainer/.ansible-navigator.yaml' and '/Users/mrainer/.ansible-navigator.json'
+2022-11-23T09:22:26.681789+00:00 DEBUG 'ansible_navigator.main' Found 0: 
+2022-11-23T09:22:26.681819+00:00 DEBUG 'ansible_navigator.main' Looking in /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible
+2022-11-23T09:22:26.681849+00:00 DEBUG 'ansible_navigator.main' Looking for '/Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible-navigator.yml', '/Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible-navigator.yaml' and '/Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible-navigator.json'
+2022-11-23T09:22:26.681880+00:00 DEBUG 'ansible_navigator.main' Found 1: '/Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible-navigator.yml'
+2022-11-23T09:22:26.681910+00:00 DEBUG 'ansible_navigator.main' All found 1: '/Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible-navigator.yml'
+2022-11-23T09:22:26.681941+00:00 DEBUG 'ansible_navigator.main' Using: /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible-navigator.yml
+2022-11-23T09:22:26.681970+00:00 DEBUG 'ansible_navigator.main' Using settings file at /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible-navigator.yml in search path
+2022-11-23T09:22:26.682001+00:00 DEBUG 'ansible_navigator.main' Command provided: 'ospf.yml'
+2022-11-23T09:22:26.682031+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.ansible-runner.artifact-dir not found in settings file
+2022-11-23T09:22:26.682061+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.ansible-runner.rotate-artifacts-count not found in settings file
+2022-11-23T09:22:26.682091+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.ansible-runner.timeout not found in settings file
+2022-11-23T09:22:26.682120+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.app not found in settings file
+2022-11-23T09:22:26.682150+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.ansible.cmdline not found in settings file
+2022-11-23T09:22:26.682192+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.collection-doc-cache-path not found in settings file
+2022-11-23T09:22:26.682223+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.ansible.config.path not found in settings file
+2022-11-23T09:22:26.682252+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.execution-environment.container-options not found in settings file
+2022-11-23T09:22:26.682282+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.color.enable not found in settings file
+2022-11-23T09:22:26.682312+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.editor.command not found in settings file
+2022-11-23T09:22:26.682342+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.editor.console not found in settings file
+2022-11-23T09:22:26.682371+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.exec.command not found in settings file
+2022-11-23T09:22:26.682401+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.exec.shell not found in settings file
+2022-11-23T09:22:26.682431+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.execution-environment.enabled not found in settings file
+2022-11-23T09:22:26.682461+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.execution-environment.volume-mounts not found in settings file
+2022-11-23T09:22:26.682491+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.ansible-builder.help not found in settings file
+2022-11-23T09:22:26.682521+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.ansible.config.help not found in settings file
+2022-11-23T09:22:26.682551+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.ansible.doc.help not found in settings file
+2022-11-23T09:22:26.682581+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.ansible.inventory.help not found in settings file
+2022-11-23T09:22:26.682610+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.ansible.playbook.help not found in settings file
+2022-11-23T09:22:26.682640+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.images.details not found in settings file
+2022-11-23T09:22:26.682669+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.inventory-columns not found in settings file
+2022-11-23T09:22:26.682698+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.ansible-lint.config not found in settings file
+2022-11-23T09:22:26.682727+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.ansible-lint.lintables not found in settings file
+2022-11-23T09:22:26.682756+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.logging.append not found in settings file
+2022-11-23T09:22:26.682786+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.logging.file not found in settings file
+2022-11-23T09:22:26.682815+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.mode not found in settings file
+2022-11-23T09:22:26.682844+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.color.osc4 not found in settings file
+2022-11-23T09:22:26.682873+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.execution-environment.environment-variables.pass not found in settings file
+2022-11-23T09:22:26.682903+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.ansible.playbook.path not found in settings file
+2022-11-23T09:22:26.682932+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.playbook-artifact.enable not found in settings file
+2022-11-23T09:22:26.682961+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.playbook-artifact.replay not found in settings file
+2022-11-23T09:22:26.682990+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.playbook-artifact.save-as not found in settings file
+2022-11-23T09:22:26.683020+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.ansible.doc.plugin.name not found in settings file
+2022-11-23T09:22:26.683049+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.ansible.doc.plugin.type not found in settings file
+2022-11-23T09:22:26.683079+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.execution-environment.pull.arguments not found in settings file
+2022-11-23T09:22:26.683118+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.execution-environment.environment-variables.set not found in settings file
+2022-11-23T09:22:26.683150+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.settings.effective not found in settings file
+2022-11-23T09:22:26.683179+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.settings.sample not found in settings file
+2022-11-23T09:22:26.683209+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.settings.schema not found in settings file
+2022-11-23T09:22:26.683239+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.settings.sources not found in settings file
+2022-11-23T09:22:26.683268+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.time-zone not found in settings file
+2022-11-23T09:22:26.683297+00:00 DEBUG 'ansible_navigator.main' ansible-navigator.ansible-builder.workdir not found in settings file
+2022-11-23T09:22:26.683330+00:00 WARNING 'ansible_navigator.main' Configuration errors encountered, rolling back to previous configuration.
+2022-11-23T09:22:26.683360+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: ansible_runner_artifact_dir = 'Not set' (Constants/Not set)
+2022-11-23T09:22:26.683390+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: ansible_runner_rotate_artifacts_count = 'Not set' (Constants/Not set)
+2022-11-23T09:22:26.683420+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: ansible_runner_timeout = 'Not set' (Constants/Not set)
+2022-11-23T09:22:26.683449+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: app = 'welcome' (str/Defaults)
+2022-11-23T09:22:26.683479+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: cmdline = '['ospf.yml']' (list/Command line)
+2022-11-23T09:22:26.683509+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: collection_doc_cache_path = '/Users/mrainer/.cache/ansible-navigator/collection_doc_cache.db' (str/Defaults)
+2022-11-23T09:22:26.683539+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: config = 'Not set' (Constants/Not set)
+2022-11-23T09:22:26.683568+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: container_engine = 'docker' (str/Settings file)
+2022-11-23T09:22:26.683599+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: container_options = 'Not set' (Constants/Not set)
+2022-11-23T09:22:26.683628+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: display_color = 'True' (bool/Defaults)
+2022-11-23T09:22:26.683658+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: editor_command = 'vi +{line_number} {filename}' (str/Defaults)
+2022-11-23T09:22:26.683688+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: editor_console = 'True' (bool/Defaults)
+2022-11-23T09:22:26.683717+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: exec_command = '/bin/bash' (str/Defaults)
+2022-11-23T09:22:26.683747+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: exec_shell = 'True' (bool/Defaults)
+2022-11-23T09:22:26.683777+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: execution_environment = 'True' (bool/Defaults)
+2022-11-23T09:22:26.683807+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: execution_environment_image = 'quay.io/maxrainer/netbox' (str/Settings file)
+2022-11-23T09:22:26.683836+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: execution_environment_volume_mounts = 'Not set' (Constants/Not set)
+2022-11-23T09:22:26.683866+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: help_builder = 'False' (bool/Defaults)
+2022-11-23T09:22:26.683895+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: help_config = 'False' (bool/Defaults)
+2022-11-23T09:22:26.683925+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: help_doc = 'False' (bool/Defaults)
+2022-11-23T09:22:26.683954+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: help_inventory = 'False' (bool/Defaults)
+2022-11-23T09:22:26.683984+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: help_playbook = 'False' (bool/Defaults)
+2022-11-23T09:22:26.684013+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: images_details = '['everything']' (list/Defaults)
+2022-11-23T09:22:26.684053+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: inventory = '['./inventory.ini']' (list/Settings file)
+2022-11-23T09:22:26.684083+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: inventory_column = 'Not set' (Constants/Not set)
+2022-11-23T09:22:26.684113+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: lint_config = 'Not set' (Constants/Not set)
+2022-11-23T09:22:26.684143+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: lintables = 'Not set' (Constants/Not set)
+2022-11-23T09:22:26.684173+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: log_append = 'True' (bool/Defaults)
+2022-11-23T09:22:26.684203+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: log_file = '/Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible-navigator.log' (str/Defaults)
+2022-11-23T09:22:26.684233+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: log_level = 'info' (str/Settings file)
+2022-11-23T09:22:26.684262+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: mode = 'interactive' (str/Defaults)
+2022-11-23T09:22:26.684292+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: osc4 = 'True' (bool/Defaults)
+2022-11-23T09:22:26.684322+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: pass_environment_variable = 'Not set' (Constants/Not set)
+2022-11-23T09:22:26.684352+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: playbook = 'Not set' (Constants/Not set)
+2022-11-23T09:22:26.684382+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: playbook_artifact_enable = 'True' (bool/Defaults)
+2022-11-23T09:22:26.684412+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: playbook_artifact_replay = 'Not set' (Constants/Not set)
+2022-11-23T09:22:26.684441+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: playbook_artifact_save_as = '{playbook_dir}/{playbook_name}-artifact-{time_stamp}.json' (str/Defaults)
+2022-11-23T09:22:26.684471+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: plugin_name = 'Not set' (Constants/Not set)
+2022-11-23T09:22:26.684501+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: plugin_type = 'module' (str/Defaults)
+2022-11-23T09:22:26.684531+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: pull_arguments = 'Not set' (Constants/Not set)
+2022-11-23T09:22:26.684560+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: pull_policy = 'missing' (str/Settings file)
+2022-11-23T09:22:26.684590+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: set_environment_variable = 'Not set' (Constants/Not set)
+2022-11-23T09:22:26.684620+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: settings_effective = 'False' (bool/Defaults)
+2022-11-23T09:22:26.684650+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: settings_sample = 'False' (bool/Defaults)
+2022-11-23T09:22:26.684680+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: settings_schema = 'json' (str/Defaults)
+2022-11-23T09:22:26.684709+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: settings_sources = 'False' (bool/Defaults)
+2022-11-23T09:22:26.684739+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: time_zone = 'UTC' (str/Defaults)
+2022-11-23T09:22:26.684769+00:00 DEBUG 'ansible_navigator.main' Prior to rollback: workdir = '/Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible' (str/Defaults)
+2022-11-23T09:22:26.684799+00:00 DEBUG 'ansible_navigator.main' After rollback: ansible_runner_artifact_dir = 'Not set' (Constants/Not set)
+2022-11-23T09:22:26.684829+00:00 DEBUG 'ansible_navigator.main' After rollback: ansible_runner_rotate_artifacts_count = 'Not set' (Constants/Not set)
+2022-11-23T09:22:26.684858+00:00 DEBUG 'ansible_navigator.main' After rollback: ansible_runner_timeout = 'Not set' (Constants/Not set)
+2022-11-23T09:22:26.684888+00:00 DEBUG 'ansible_navigator.main' After rollback: app = 'Not set' (Constants/Not set)
+2022-11-23T09:22:26.684918+00:00 DEBUG 'ansible_navigator.main' After rollback: cmdline = 'Not set' (Constants/Not set)
+2022-11-23T09:22:26.684948+00:00 DEBUG 'ansible_navigator.main' After rollback: collection_doc_cache_path = 'Not set' (Constants/Not set)
+2022-11-23T09:22:26.684988+00:00 DEBUG 'ansible_navigator.main' After rollback: config = 'Not set' (Constants/Not set)
+2022-11-23T09:22:26.685023+00:00 DEBUG 'ansible_navigator.main' After rollback: container_engine = 'Not set' (Constants/Not set)
+2022-11-23T09:22:26.685054+00:00 DEBUG 'ansible_navigator.main' After rollback: container_options = 'Not set' (Constants/Not set)
+2022-11-23T09:22:26.685084+00:00 DEBUG 'ansible_navigator.main' After rollback: display_color = 'Not set' (Constants/Not set)
+2022-11-23T09:22:26.685114+00:00 DEBUG 'ansible_navigator.main' After rollback: editor_command = 'Not set' (Constants/Not set)
+2022-11-23T09:22:26.685159+00:00 DEBUG 'ansible_navigator.main' After rollback: editor_console = 'Not set' (Constants/Not set)
+2022-11-23T09:22:26.685189+00:00 DEBUG 'ansible_navigator.main' After rollback: exec_command = 'Not set' (Constants/Not set)
+2022-11-23T09:22:26.685220+00:00 DEBUG 'ansible_navigator.main' After rollback: exec_shell = 'Not set' (Constants/Not set)
+2022-11-23T09:22:26.685251+00:00 DEBUG 'ansible_navigator.main' After rollback: execution_environment = 'Not set' (Constants/Not set)
+2022-11-23T09:22:26.685282+00:00 DEBUG 'ansible_navigator.main' After rollback: execution_environment_image = 'Not set' (Constants/Not set)
+2022-11-23T09:22:26.685313+00:00 DEBUG 'ansible_navigator.main' After rollback: execution_environment_volume_mounts = 'Not set' (Constants/Not set)
+2022-11-23T09:22:26.685344+00:00 DEBUG 'ansible_navigator.main' After rollback: help_builder = 'Not set' (Constants/Not set)
+2022-11-23T09:22:26.685375+00:00 DEBUG 'ansible_navigator.main' After rollback: help_config = 'Not set' (Constants/Not set)
+2022-11-23T09:22:26.685406+00:00 DEBUG 'ansible_navigator.main' After rollback: help_doc = 'Not set' (Constants/Not set)
+2022-11-23T09:22:26.685436+00:00 DEBUG 'ansible_navigator.main' After rollback: help_inventory = 'Not set' (Constants/Not set)
+2022-11-23T09:22:26.685467+00:00 DEBUG 'ansible_navigator.main' After rollback: help_playbook = 'Not set' (Constants/Not set)
+2022-11-23T09:22:26.685497+00:00 DEBUG 'ansible_navigator.main' After rollback: images_details = 'Not set' (Constants/Not set)
+2022-11-23T09:22:26.685528+00:00 DEBUG 'ansible_navigator.main' After rollback: inventory = 'Not set' (Constants/Not set)
+2022-11-23T09:22:26.685559+00:00 DEBUG 'ansible_navigator.main' After rollback: inventory_column = 'Not set' (Constants/Not set)
+2022-11-23T09:22:26.685589+00:00 DEBUG 'ansible_navigator.main' After rollback: lint_config = 'Not set' (Constants/Not set)
+2022-11-23T09:22:26.685620+00:00 DEBUG 'ansible_navigator.main' After rollback: lintables = 'Not set' (Constants/Not set)
+2022-11-23T09:22:26.685650+00:00 DEBUG 'ansible_navigator.main' After rollback: log_append = 'Not set' (Constants/Not set)
+2022-11-23T09:22:26.685681+00:00 DEBUG 'ansible_navigator.main' After rollback: log_file = 'Not set' (Constants/Not set)
+2022-11-23T09:22:26.685711+00:00 DEBUG 'ansible_navigator.main' After rollback: log_level = 'Not set' (Constants/Not set)
+2022-11-23T09:22:26.685742+00:00 DEBUG 'ansible_navigator.main' After rollback: mode = 'Not set' (Constants/Not set)
+2022-11-23T09:22:26.685772+00:00 DEBUG 'ansible_navigator.main' After rollback: osc4 = 'Not set' (Constants/Not set)
+2022-11-23T09:22:26.685803+00:00 DEBUG 'ansible_navigator.main' After rollback: pass_environment_variable = 'Not set' (Constants/Not set)
+2022-11-23T09:22:26.685833+00:00 DEBUG 'ansible_navigator.main' After rollback: playbook = 'Not set' (Constants/Not set)
+2022-11-23T09:22:26.685864+00:00 DEBUG 'ansible_navigator.main' After rollback: playbook_artifact_enable = 'Not set' (Constants/Not set)
+2022-11-23T09:22:26.685894+00:00 DEBUG 'ansible_navigator.main' After rollback: playbook_artifact_replay = 'Not set' (Constants/Not set)
+2022-11-23T09:22:26.685925+00:00 DEBUG 'ansible_navigator.main' After rollback: playbook_artifact_save_as = 'Not set' (Constants/Not set)
+2022-11-23T09:22:26.685955+00:00 DEBUG 'ansible_navigator.main' After rollback: plugin_name = 'Not set' (Constants/Not set)
+2022-11-23T09:22:26.685996+00:00 DEBUG 'ansible_navigator.main' After rollback: plugin_type = 'Not set' (Constants/Not set)
+2022-11-23T09:22:26.686028+00:00 DEBUG 'ansible_navigator.main' After rollback: pull_arguments = 'Not set' (Constants/Not set)
+2022-11-23T09:22:26.686059+00:00 DEBUG 'ansible_navigator.main' After rollback: pull_policy = 'Not set' (Constants/Not set)
+2022-11-23T09:22:26.686090+00:00 DEBUG 'ansible_navigator.main' After rollback: set_environment_variable = 'Not set' (Constants/Not set)
+2022-11-23T09:22:26.686120+00:00 DEBUG 'ansible_navigator.main' After rollback: settings_effective = 'Not set' (Constants/Not set)
+2022-11-23T09:22:26.686165+00:00 DEBUG 'ansible_navigator.main' After rollback: settings_sample = 'Not set' (Constants/Not set)
+2022-11-23T09:22:26.686196+00:00 DEBUG 'ansible_navigator.main' After rollback: settings_schema = 'Not set' (Constants/Not set)
+2022-11-23T09:22:26.686228+00:00 DEBUG 'ansible_navigator.main' After rollback: settings_sources = 'Not set' (Constants/Not set)
+2022-11-23T09:22:26.686259+00:00 DEBUG 'ansible_navigator.main' After rollback: time_zone = 'Not set' (Constants/Not set)
+2022-11-23T09:22:26.686291+00:00 DEBUG 'ansible_navigator.main' After rollback: workdir = 'Not set' (Constants/Not set)
+2022-11-23T09:22:26.686323+00:00 DEBUG 'ansible_navigator.main' Configuration rollback complete.
+2022-11-23T09:22:26.686354+00:00 DEBUG 'ansible_navigator.main' Collection doc cache not mounted
+2022-11-23T09:22:26.686404+00:00 WARNING 'ansible_navigator.main' Issues were found while applying the settings.
+2022-11-23T09:22:26.686442+00:00 INFO 'ansible_navigator.main' Command provided: 'ospf.yml'
+2022-11-23T09:22:26.686481+00:00 ERROR 'ansible_navigator.main' argument {subcommand} --help: invalid choice: 'ospf.yml' (choose from 'builder', 'collections', 'config', 'doc', 'exec', 'images', 'inventory', 'lint', 'replay', 'run', 'settings', 'welcome')
+2022-11-23T09:22:26.686517+00:00 INFO 'ansible_navigator.main' Configuration failed, using default log file location. (/Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible-navigator.log) Log level set to debug
+2022-11-23T09:22:26.686553+00:00 INFO 'ansible_navigator.main' Review the hints and log file to see what went wrong.
+2022-11-23T09:22:33.419728+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-11-23T09:22:33.420373+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-11-23T09:22:33.420500+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-11-23T09:22:33.420698+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-11-23T09:22:34.169000+00:00 WARNING 'ansible_navigator.image_manager.puller._log_message' Image inspection failed, image assumed to be corrupted or missing
+2022-11-23T09:22:34.169554+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Execution environment image name:: quay.io/maxrainer/netbox:latest
+2022-11-23T09:22:34.169619+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Execution environment image tag:: latest
+2022-11-23T09:22:34.169669+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Execution environment pull arguments:: None
+2022-11-23T09:22:34.169745+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Execution environment pull policy:: missing
+2022-11-23T09:22:34.169790+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Execution environment pull needed:: True
+2022-11-23T09:22:34.628724+00:00 ERROR 'ansible_navigator.image_manager.puller._log_message' Execution environment pull failed
+2022-11-23T09:22:34.629115+00:00 ERROR 'ansible_navigator.image_manager.puller._log_message' Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?
+2022-11-23T09:22:34.629227+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Check the execution environment image name, connectivity to and permissions for the registry, and try again
+2022-11-23T09:22:49.220705+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-11-23T09:22:49.221396+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-11-23T09:22:49.221501+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-11-23T09:22:49.221638+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-11-23T09:22:49.431523+00:00 WARNING 'ansible_navigator.image_manager.puller._log_message' Image inspection failed, image assumed to be corrupted or missing
+2022-11-23T09:22:49.432162+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Execution environment image name:: quay.io/maxrainer/netbox:latest
+2022-11-23T09:22:49.432234+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Execution environment image tag:: latest
+2022-11-23T09:22:49.432279+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Execution environment pull arguments:: None
+2022-11-23T09:22:49.432321+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Execution environment pull policy:: missing
+2022-11-23T09:22:49.432364+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Execution environment pull needed:: True
+2022-11-23T09:22:49.777400+00:00 ERROR 'ansible_navigator.image_manager.puller._log_message' Execution environment pull failed
+2022-11-23T09:22:49.777874+00:00 ERROR 'ansible_navigator.image_manager.puller._log_message' Error response from daemon: dial unix /Users/mrainer/Library/Containers/com.docker.docker/Data/docker.raw.sock: connect: connection refused
+2022-11-23T09:22:49.777968+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Check the execution environment image name, connectivity to and permissions for the registry, and try again
+2022-11-23T09:22:53.592447+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-11-23T09:22:53.592872+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-11-23T09:22:53.592963+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-11-23T09:22:53.593095+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-11-23T09:22:53.873115+00:00 INFO 'ansible_navigator.actions.run_306f._update_args' 'display_color' cannot be reconfigured. (restore original)
+2022-11-23T09:22:53.873559+00:00 INFO 'ansible_navigator.actions.run_306f._update_args' 'mode' cannot be reconfigured. (restore original)
+2022-11-23T09:22:53.873640+00:00 INFO 'ansible_navigator.actions.run_306f._update_args' 'display_color' cannot be reconfigured. (apply defaults)
+2022-11-23T09:22:53.873691+00:00 INFO 'ansible_navigator.actions.run_306f._update_args' 'mode' cannot be reconfigured. (apply defaults)
+2022-11-23T09:22:53.873757+00:00 INFO 'ansible_navigator.actions.run_306f._update_args' 'display_color' cannot be reconfigured (apply previous cli)
+2022-11-23T09:22:53.873799+00:00 INFO 'ansible_navigator.actions.run_306f._update_args' 'mode' cannot be reconfigured (apply previous cli)
+2022-11-23T09:22:53.873840+00:00 INFO 'ansible_navigator.actions.run_306f._update_args' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-11-23T09:22:53.873884+00:00 INFO 'ansible_navigator.actions.run_306f._update_args' 'display_color' cannot be reconfigured. (post process)
+2022-11-23T09:22:53.873939+00:00 INFO 'ansible_navigator.actions.run_306f._update_args' 'mode' cannot be reconfigured. (post process)
+2022-11-23T09:22:53.938762+00:00 INFO 'ansible_navigator.actions.run_306f._init_run' Run initialized and playbook started.
+2022-11-23T09:23:05.356177+00:00 ERROR 'ansible_navigator.actions.run_306f.run' Can not step back while playbook in progress, :q! to exit
+2022-11-23T09:23:05.928396+00:00 ERROR 'ansible_navigator.actions.run_306f.run' Can not step back while playbook in progress, :q! to exit
+2022-11-23T09:23:06.325136+00:00 ERROR 'ansible_navigator.actions.run_306f.run' Can not step back while playbook in progress, :q! to exit
+2022-11-23T09:23:07.427762+00:00 WARNING 'ansible_navigator.actions.run_306f._prepare_to_quit' Quit requested but playbook running, try q! or quit!
+2022-11-23T09:23:07.943717+00:00 INFO 'ansible_navigator.actions.run_306f.update' Playbook complete
+2022-11-23T09:23:07.946479+00:00 INFO 'ansible_navigator.actions.run_306f.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf-artifact-2022-11-23T09:23:07.943872+00:00.json
+2022-11-23T09:23:18.455621+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-11-23T09:23:18.456014+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-11-23T09:23:18.456100+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-11-23T09:23:18.456225+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-11-23T09:23:30.528567+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf-artifact-2022-11-23T09:23:30.523867+00:00.json
+2022-11-23T09:24:21.357021+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-11-23T09:24:21.357446+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-11-23T09:24:21.357539+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-11-23T09:24:21.357664+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-11-23T09:24:28.782519+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf-artifact-2022-11-23T09:24:28.778092+00:00.json
+2022-11-23T09:25:09.887404+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-11-23T09:25:09.888376+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-11-23T09:25:09.888511+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-11-23T09:25:09.888699+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-11-23T09:25:17.444651+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf-artifact-2022-11-23T09:25:17.440283+00:00.json
+2022-11-23T09:25:38.666547+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-11-23T09:25:38.666945+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-11-23T09:25:38.667033+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-11-23T09:25:38.667157+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-11-23T09:25:48.850627+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf-artifact-2022-11-23T09:25:48.845678+00:00.json
+2022-11-23T09:27:05.496443+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-11-23T09:27:05.497548+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-11-23T09:27:05.497678+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-11-23T09:27:05.497864+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-11-23T09:27:12.652019+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf-artifact-2022-11-23T09:27:12.647971+00:00.json
+2022-11-23T09:28:51.450516+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-11-23T09:28:51.451410+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-11-23T09:28:51.451548+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-11-23T09:28:51.451680+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-11-23T09:28:58.811542+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf-artifact-2022-11-23T09:28:58.807435+00:00.json
+2022-11-23T09:30:09.795846+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-11-23T09:30:09.796757+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-11-23T09:30:09.796886+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-11-23T09:30:09.797070+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-11-23T09:30:17.116459+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf-artifact-2022-11-23T09:30:17.112490+00:00.json
+2022-11-23T09:35:10.989706+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-11-23T09:35:10.990748+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-11-23T09:35:10.990880+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-11-23T09:35:10.991060+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-11-23T09:35:19.338942+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf-artifact-2022-11-23T09:35:19.334594+00:00.json
+2022-11-23T09:38:59.883185+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-11-23T09:38:59.884009+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-11-23T09:38:59.884143+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-11-23T09:38:59.884327+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-11-23T09:39:07.892885+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf-artifact-2022-11-23T09:39:07.888606+00:00.json
+2022-11-23T09:40:10.370370+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-11-23T09:40:10.371041+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-11-23T09:40:10.371142+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-11-23T09:40:10.371274+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-11-23T09:40:18.211253+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf-artifact-2022-11-23T09:40:18.206862+00:00.json
+2022-11-23T09:42:41.813934+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-11-23T09:42:41.814573+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-11-23T09:42:41.814702+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-11-23T09:42:41.814888+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-11-23T09:42:49.565868+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf-artifact-2022-11-23T09:42:49.562193+00:00.json
+2022-11-23T09:44:41.329780+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-11-23T09:44:41.330660+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-11-23T09:44:41.330809+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-11-23T09:44:41.331002+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-11-23T09:44:49.211666+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf-artifact-2022-11-23T09:44:49.208120+00:00.json
+2022-11-23T09:45:15.007021+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-11-23T09:45:15.007904+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-11-23T09:45:15.008040+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-11-23T09:45:15.008217+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-11-23T09:45:22.629420+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf-artifact-2022-11-23T09:45:22.625456+00:00.json
+2022-11-23T09:46:00.559290+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-11-23T09:46:00.559697+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-11-23T09:46:00.559785+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-11-23T09:46:00.559911+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-11-23T09:46:08.815375+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf-artifact-2022-11-23T09:46:08.811219+00:00.json
+2022-11-23T09:47:19.491590+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-11-23T09:47:19.492228+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-11-23T09:47:19.492319+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-11-23T09:47:19.492446+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-11-23T09:47:27.604499+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf-artifact-2022-11-23T09:47:27.600055+00:00.json
+2022-11-23T09:47:35.909407+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-11-23T09:47:35.910086+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-11-23T09:47:35.910209+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-11-23T09:47:35.910385+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-11-23T09:47:43.840660+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf-artifact-2022-11-23T09:47:43.836175+00:00.json
+2022-11-23T09:48:12.569230+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-11-23T09:48:12.569767+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-11-23T09:48:12.569954+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-11-23T09:48:12.570096+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-11-23T09:48:20.651964+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf-artifact-2022-11-23T09:48:20.647620+00:00.json
+2022-11-23T09:48:40.567607+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-11-23T09:48:40.567995+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-11-23T09:48:40.568081+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-11-23T09:48:40.568203+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-11-23T09:48:48.504548+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf-artifact-2022-11-23T09:48:48.500218+00:00.json
+2022-11-23T09:49:44.970400+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-11-23T09:49:44.971040+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-11-23T09:49:44.971195+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-11-23T09:49:44.971397+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-11-23T09:49:53.104967+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf-artifact-2022-11-23T09:49:53.100792+00:00.json
+2022-11-23T09:50:09.906758+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-11-23T09:50:09.907164+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-11-23T09:50:09.907253+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-11-23T09:50:09.907378+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-11-23T09:50:18.064934+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf-artifact-2022-11-23T09:50:18.060616+00:00.json
+2022-11-23T09:50:38.985736+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-11-23T09:50:38.986528+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-11-23T09:50:38.986641+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-11-23T09:50:38.986829+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-11-23T09:50:46.597800+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf-artifact-2022-11-23T09:50:46.593437+00:00.json
+2022-11-23T09:50:52.337288+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-11-23T09:50:52.337787+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-11-23T09:50:52.337880+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-11-23T09:50:52.338008+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-11-23T09:51:00.122488+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf-artifact-2022-11-23T09:51:00.118146+00:00.json
+2022-11-23T09:51:11.529828+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-11-23T09:51:11.530322+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-11-23T09:51:11.530424+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-11-23T09:51:11.530575+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-11-23T09:51:19.631581+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf-artifact-2022-11-23T09:51:19.629170+00:00.json
+2022-11-23T09:51:37.805932+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-11-23T09:51:37.806371+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-11-23T09:51:37.806468+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-11-23T09:51:37.806606+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-11-23T09:51:45.521327+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf-artifact-2022-11-23T09:51:45.517479+00:00.json
+2022-11-23T09:51:55.869680+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-11-23T09:51:55.870127+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-11-23T09:51:55.870214+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-11-23T09:51:55.870336+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-11-23T09:52:03.669791+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf-artifact-2022-11-23T09:52:03.665804+00:00.json
+2022-11-23T09:52:12.116647+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-11-23T09:52:12.117045+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-11-23T09:52:12.117130+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-11-23T09:52:12.117252+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-11-23T09:52:20.319140+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf-artifact-2022-11-23T09:52:20.314758+00:00.json
+2022-11-23T09:52:23.638781+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-11-23T09:52:23.639279+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-11-23T09:52:23.639472+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-11-23T09:52:23.639719+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-11-23T09:52:31.960655+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf-artifact-2022-11-23T09:52:31.956301+00:00.json
+2022-11-23T09:54:46.970110+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-11-23T09:54:46.970513+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-11-23T09:54:46.970599+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-11-23T09:54:46.970723+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-11-23T09:54:55.335164+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf-artifact-2022-11-23T09:54:55.331147+00:00.json
+2022-11-23T09:55:34.874245+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-11-23T09:55:34.874892+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-11-23T09:55:34.875014+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-11-23T09:55:34.875175+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-11-23T09:55:43.197077+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf-artifact-2022-11-23T09:55:43.192703+00:00.json
+2022-11-23T09:56:57.238612+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-11-23T09:56:57.239048+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-11-23T09:56:57.239137+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-11-23T09:56:57.239261+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-11-23T09:57:06.231873+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf-artifact-2022-11-23T09:57:06.229325+00:00.json
+2022-11-23T09:57:41.472891+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-11-23T09:57:41.473322+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-11-23T09:57:41.473412+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-11-23T09:57:41.473542+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-11-23T09:57:50.526822+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf-artifact-2022-11-23T09:57:50.523217+00:00.json
+2022-11-23T09:58:55.002934+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-11-23T09:58:55.003383+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-11-23T09:58:55.003477+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-11-23T09:58:55.003616+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-11-23T09:59:03.329537+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf-artifact-2022-11-23T09:59:03.325202+00:00.json
+2022-11-23T09:59:28.898919+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-11-23T09:59:28.899321+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-11-23T09:59:28.899411+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-11-23T09:59:28.899538+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-11-23T09:59:37.730222+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf-artifact-2022-11-23T09:59:37.726793+00:00.json
+2022-11-23T10:06:19.651962+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-11-23T10:06:19.652642+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-11-23T10:06:19.652730+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-11-23T10:06:19.652859+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-11-23T10:06:27.281503+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf-artifact-2022-11-23T10:06:27.276963+00:00.json
+2022-11-23T10:11:31.156080+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-11-23T10:11:31.156665+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-11-23T10:11:31.156773+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-11-23T10:11:31.156933+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-11-23T10:11:34.082050+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '3319857b-3edd-499c-80f1-6120fc974e3a', 'counter': 1, 'stdout': '\x1b[1;35m[WARNING]: While constructing a mapping from\x1b[0m', 'start_line': 0, 'end_line': 1, 'runner_ident': '8c52be85-7545-4428-8efd-ae5121ffc7ef', 'created': '2022-11-23T10:11:34.077797'}
+2022-11-23T10:11:34.082526+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '42f687ff-9b69-450a-9549-ba4863d29d1c', 'counter': 2, 'stdout': '\x1b[1;35m/Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf_sync.yml,\x1b[0m', 'start_line': 1, 'end_line': 2, 'runner_ident': '8c52be85-7545-4428-8efd-ae5121ffc7ef', 'created': '2022-11-23T10:11:34.078074'}
+2022-11-23T10:11:34.082656+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '123444cf-3b81-4648-8f77-aa67af2c43c2', 'counter': 3, 'stdout': '\x1b[1;35mline 15, column 5, found a duplicate dict key (tags). Using last defined value\x1b[0m', 'start_line': 2, 'end_line': 3, 'runner_ident': '8c52be85-7545-4428-8efd-ae5121ffc7ef', 'created': '2022-11-23T10:11:34.078155'}
+2022-11-23T10:11:34.082725+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'd933a93d-214f-45f2-89a7-e718a0b83759', 'counter': 4, 'stdout': '\x1b[1;35monly.\x1b[0m', 'start_line': 3, 'end_line': 4, 'runner_ident': '8c52be85-7545-4428-8efd-ae5121ffc7ef', 'created': '2022-11-23T10:11:34.078229'}
+2022-11-23T10:11:38.518621+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf_sync-artifact-2022-11-23T10:11:38.514230+00:00.json
+2022-11-23T10:12:50.240964+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-11-23T10:12:50.241403+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-11-23T10:12:50.241488+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-11-23T10:12:50.241613+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-11-23T10:12:58.840458+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf_sync-artifact-2022-11-23T10:12:58.835852+00:00.json
+2022-11-23T10:13:13.400668+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-11-23T10:13:13.401245+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-11-23T10:13:13.401335+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-11-23T10:13:13.401493+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-11-23T10:13:22.948510+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf_sync-artifact-2022-11-23T10:13:22.944651+00:00.json
+2022-11-23T10:22:28.689172+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-11-23T10:22:28.690101+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-11-23T10:22:28.690241+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-11-23T10:22:28.690433+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-11-23T10:22:31.811139+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'c127b9ff-3c05-4e56-ac67-a39b02fe4e7f', 'counter': 1, 'stdout': "\x1b[0;31mERROR! 'var' is not a valid attribute for a Play\x1b[0m", 'start_line': 0, 'end_line': 1, 'runner_ident': '6e630878-a72a-4d3b-a655-f5b3469bf3ea', 'created': '2022-11-23T10:22:31.806997'}
+2022-11-23T10:22:31.811419+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'b332e253-8958-441e-b9a1-badbd386d81f', 'counter': 2, 'stdout': '\x1b[0;31m\x1b[0m', 'start_line': 1, 'end_line': 2, 'runner_ident': '6e630878-a72a-4d3b-a655-f5b3469bf3ea', 'created': '2022-11-23T10:22:31.807246'}
+2022-11-23T10:22:31.811501+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '57e7defe-5de7-4158-a8a4-a7e9fa4a0cc2', 'counter': 3, 'stdout': "\x1b[0;31mThe error appears to be in '/Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf_sync.yml': line 4, column 3, but may\x1b[0m", 'start_line': 2, 'end_line': 3, 'runner_ident': '6e630878-a72a-4d3b-a655-f5b3469bf3ea', 'created': '2022-11-23T10:22:31.807328'}
+2022-11-23T10:22:31.811574+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '71bdf49a-ec50-47af-bba1-cdb3fe553986', 'counter': 4, 'stdout': '\x1b[0;31mbe elsewhere in the file depending on the exact syntax problem.\x1b[0m', 'start_line': 3, 'end_line': 4, 'runner_ident': '6e630878-a72a-4d3b-a655-f5b3469bf3ea', 'created': '2022-11-23T10:22:31.807402'}
+2022-11-23T10:22:31.811637+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'bedb1c7b-86c6-4cb2-bc30-9c0f9ff2629e', 'counter': 5, 'stdout': '\x1b[0;31m\x1b[0m', 'start_line': 4, 'end_line': 5, 'runner_ident': '6e630878-a72a-4d3b-a655-f5b3469bf3ea', 'created': '2022-11-23T10:22:31.807469'}
+2022-11-23T10:22:31.811699+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'd6e0892d-7f03-4e4e-92f6-4d0f8a52ec9c', 'counter': 6, 'stdout': '\x1b[0;31mThe offending line appears to be:\x1b[0m', 'start_line': 5, 'end_line': 6, 'runner_ident': '6e630878-a72a-4d3b-a655-f5b3469bf3ea', 'created': '2022-11-23T10:22:31.807534'}
+2022-11-23T10:22:31.811760+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '73843c84-85e6-477a-97a4-696b1574c9b0', 'counter': 7, 'stdout': '\x1b[0;31m\x1b[0m', 'start_line': 6, 'end_line': 7, 'runner_ident': '6e630878-a72a-4d3b-a655-f5b3469bf3ea', 'created': '2022-11-23T10:22:31.807598'}
+2022-11-23T10:22:31.811819+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '3f94fae3-ede5-497d-8751-9354a70cb39f', 'counter': 8, 'stdout': '\x1b[0;31m\x1b[0m', 'start_line': 7, 'end_line': 8, 'runner_ident': '6e630878-a72a-4d3b-a655-f5b3469bf3ea', 'created': '2022-11-23T10:22:31.807660'}
+2022-11-23T10:22:31.811879+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': '2b95043c-1fb0-4ce0-8e2e-03397b6ec68c', 'counter': 9, 'stdout': '\x1b[0;31m- name: ospf sync state\x1b[0m', 'start_line': 8, 'end_line': 9, 'runner_ident': '6e630878-a72a-4d3b-a655-f5b3469bf3ea', 'created': '2022-11-23T10:22:31.807725'}
+2022-11-23T10:22:31.811941+00:00 CRITICAL 'ansible_navigator.actions.run_playbook._handle_message' Unhandled message from runner queue, discarded: {'event': 'verbose', 'uuid': 'fc14b9de-c586-4206-adfd-0601e1e39a84', 'counter': 10, 'stdout': '\x1b[0;31m  ^ here\x1b[0m', 'start_line': 9, 'end_line': 10, 'runner_ident': '6e630878-a72a-4d3b-a655-f5b3469bf3ea', 'created': '2022-11-23T10:22:31.807789'}
+2022-11-23T10:22:32.092089+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf_sync-artifact-2022-11-23T10:22:32.088166+00:00.json
+2022-11-23T10:23:14.309116+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-11-23T10:23:14.309612+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-11-23T10:23:14.309702+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-11-23T10:23:14.309826+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-11-23T10:23:23.041831+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf_sync-artifact-2022-11-23T10:23:23.038581+00:00.json
+2022-11-23T10:24:16.984456+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-11-23T10:24:16.984928+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-11-23T10:24:16.985025+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-11-23T10:24:16.985157+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-11-23T10:24:25.525357+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf_sync-artifact-2022-11-23T10:24:25.521018+00:00.json
+2022-11-23T10:28:44.198774+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-11-23T10:28:44.199247+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-11-23T10:28:44.199369+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-11-23T10:28:44.199523+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-11-23T10:28:53.063258+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf_sync-artifact-2022-11-23T10:28:53.059867+00:00.json
+2022-11-23T10:29:40.646381+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-11-23T10:29:40.646780+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-11-23T10:29:40.646867+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-11-23T10:29:40.646991+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-11-23T10:29:49.325948+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf-artifact-2022-11-23T10:29:49.323148+00:00.json
+2022-11-23T10:31:31.101798+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-11-23T10:31:31.102252+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-11-23T10:31:31.102346+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-11-23T10:31:31.102477+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-11-23T10:31:40.945910+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf_sync-artifact-2022-11-23T10:31:40.941156+00:00.json
+2022-11-23T10:34:04.701800+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-11-23T10:34:04.702428+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-11-23T10:34:04.702554+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-11-23T10:34:04.702739+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-11-23T10:34:13.984619+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf_sync-artifact-2022-11-23T10:34:13.979827+00:00.json
+2022-11-23T10:35:15.076518+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-11-23T10:35:15.077009+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-11-23T10:35:15.077095+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-11-23T10:35:15.077216+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-11-23T10:35:26.340135+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf_sync-artifact-2022-11-23T10:35:26.336461+00:00.json
+2022-11-23T10:37:08.560691+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-11-23T10:37:08.561638+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-11-23T10:37:08.561771+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-11-23T10:37:08.561962+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-11-23T10:37:18.012371+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf_sync-artifact-2022-11-23T10:37:18.008957+00:00.json
+2022-11-23T10:38:03.524307+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-11-23T10:38:03.524950+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-11-23T10:38:03.525042+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-11-23T10:38:03.525172+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-11-23T10:38:15.910967+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf_sync-artifact-2022-11-23T10:38:15.906745+00:00.json
+2022-11-23T10:39:16.172130+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-11-23T10:39:16.173262+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-11-23T10:39:16.173445+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-11-23T10:39:16.173663+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-11-23T10:39:25.213534+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf_sync-artifact-2022-11-23T10:39:25.209112+00:00.json
+2022-11-23T10:40:35.408925+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-11-23T10:40:35.409325+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-11-23T10:40:35.409413+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-11-23T10:40:35.409540+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-11-23T10:40:44.307738+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf_sync-artifact-2022-11-23T10:40:44.303246+00:00.json
+2022-11-23T10:41:04.253933+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-11-23T10:41:04.254511+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-11-23T10:41:04.254695+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-11-23T10:41:04.254821+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-11-23T10:41:15.950307+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf_sync-artifact-2022-11-23T10:41:15.945382+00:00.json
+2022-11-23T10:54:05.102506+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-11-23T10:54:05.103432+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-11-23T10:54:05.103558+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-11-23T10:54:05.103732+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-11-23T10:54:05.844390+00:00 WARNING 'ansible_navigator.run' Dirty exit, killing the pid
+2022-11-23T10:54:23.827980+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-11-23T10:54:23.828419+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-11-23T10:54:23.828518+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-11-23T10:54:23.828654+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-11-23T10:54:27.602293+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf_sync-artifact-2022-11-23T10:54:27.598196+00:00.json
+2022-11-23T10:54:46.366520+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-11-23T10:54:46.367125+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-11-23T10:54:46.367217+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-11-23T10:54:46.367346+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-11-23T10:54:50.407543+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf_sync-artifact-2022-11-23T10:54:50.405466+00:00.json
+2022-11-23T10:55:07.114545+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-11-23T10:55:07.115038+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-11-23T10:55:07.115181+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-11-23T10:55:07.115345+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-11-23T10:55:16.026312+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf_sync-artifact-2022-11-23T10:55:16.022339+00:00.json
+2022-11-23T10:55:57.630433+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-11-23T10:55:57.630842+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-11-23T10:55:57.630931+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-11-23T10:55:57.631059+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-11-23T10:56:06.515425+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf_sync-artifact-2022-11-23T10:56:06.511886+00:00.json
+2022-11-23T10:56:38.813709+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-11-23T10:56:38.814134+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-11-23T10:56:38.814224+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-11-23T10:56:38.814354+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-11-23T10:56:50.796866+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf_sync-artifact-2022-11-23T10:56:50.793510+00:00.json
+2022-11-23T11:08:29.084777+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-11-23T11:08:29.086210+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-11-23T11:08:29.086391+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-11-23T11:08:29.086606+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-11-23T11:08:37.204184+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf_sync-artifact-2022-11-23T11:08:37.199823+00:00.json
+2022-11-23T11:33:57.274825+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-11-23T11:33:57.275634+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-11-23T11:33:57.275763+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-11-23T11:33:57.275957+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-11-23T11:34:07.190335+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf_sync-artifact-2022-11-23T11:34:07.187439+00:00.json
+2022-11-23T11:38:15.700956+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-11-23T11:38:15.702006+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-11-23T11:38:15.702139+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-11-23T11:38:15.702308+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-11-23T11:38:24.800371+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf_sync-artifact-2022-11-23T11:38:24.795851+00:00.json
+2022-11-23T16:00:43.165346+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-11-23T16:00:43.166186+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-11-23T16:00:43.166274+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-11-23T16:00:43.166397+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-11-23T16:00:52.485835+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf_sync-artifact-2022-11-23T16:00:52.482901+00:00.json
+2022-11-23T16:02:20.607055+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-11-23T16:02:20.607653+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-11-23T16:02:20.607769+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-11-23T16:02:20.607970+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-11-23T16:02:27.662689+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf-artifact-2022-11-23T16:02:27.658454+00:00.json
+2022-11-23T16:03:33.713769+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-11-23T16:03:33.714166+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-11-23T16:03:33.714255+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-11-23T16:03:33.714379+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-11-23T16:03:41.317131+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf-artifact-2022-11-23T16:03:41.312717+00:00.json
+2022-11-23T16:04:36.058148+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-11-23T16:04:36.058575+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-11-23T16:04:36.058663+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-11-23T16:04:36.058789+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-11-23T16:04:42.983960+00:00 WARNING 'ansible_navigator.run' Dirty exit, killing the pid
+2022-11-23T16:04:47.302987+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-11-23T16:04:47.303493+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-11-23T16:04:47.303594+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-11-23T16:04:47.303735+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-11-23T16:04:57.240607+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf-artifact-2022-11-23T16:04:57.236012+00:00.json
+2022-11-23T16:12:37.629222+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-11-23T16:12:37.629880+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-11-23T16:12:37.629971+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-11-23T16:12:37.630102+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-11-23T16:12:45.732600+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf-artifact-2022-11-23T16:12:45.730152+00:00.json
+2022-11-23T16:13:58.328684+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-11-23T16:13:58.329592+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-11-23T16:13:58.329729+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-11-23T16:13:58.329918+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-11-23T16:14:07.054319+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf-artifact-2022-11-23T16:14:07.049978+00:00.json
+2022-11-23T16:25:16.797650+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-11-23T16:25:16.798585+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-11-23T16:25:16.798722+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-11-23T16:25:16.798912+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-11-23T16:25:21.750368+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf-artifact-2022-11-23T16:25:21.748419+00:00.json
+2022-11-23T16:25:55.421987+00:00 INFO 'ansible_navigator.setup_logger' New ansible-navigator instance, logging initialized
+2022-11-23T16:25:55.422962+00:00 INFO 'ansible_navigator.setup_logger' New ansible-runner instance, logging initialized
+2022-11-23T16:25:55.423093+00:00 INFO 'ansible_navigator.main' EE support enabled: no 'ansible.cfg' found in current working directory. Tried /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ansible.cfg
+2022-11-23T16:25:55.423277+00:00 INFO 'ansible_navigator.image_manager.puller._log_message' Image tag is: latest
+2022-11-23T16:26:03.900484+00:00 INFO 'ansible_navigator.actions.run_playbook.write_artifact' Saved artifact as /Users/mrainer/Documents/dev/ansible/generic/cisco/pyats/ansible/ospf_sync-artifact-2022-11-23T16:26:03.896986+00:00.json
